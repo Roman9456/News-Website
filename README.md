@@ -1,3 +1,45 @@
+# News Website
+
+## About
+This is a small news website application with articles and sections. Each article can have multiple sections associated with it.
+
+## Features
+- Articles can be categorized into sections
+- Each article must have one main section, and can have additional sections
+- Admin interface to manage articles and sections
+
+## Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/your-username/news-website.git
+
+2. Install the dependencies:
+
+   pip install -r requirements.txt
+
+3. Apply the database migrations:
+
+   python manage.py migrate
+
+4. Load the sample data:
+
+   python manage.py loaddata articles.json
+
+5. Start the development server:
+
+   python manage.py runserver
+
+6. Access the website at http://127.0.0.1:8000/
+
+## Admin Interface
+The admin interface is available at /admin/. You can log in using the following credentials:
+- Username: admin
+- Password: password
+
+In the admin interface, you can create, update, and delete articles and sections.
+
+
 ## Задание
 
 Есть небольшой новостной сайт.
